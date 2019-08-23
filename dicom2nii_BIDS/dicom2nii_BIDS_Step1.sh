@@ -7,7 +7,7 @@
 # To install dcm2bids: https://pypi.org/project/dcm2bids/
 
 # BIDS outout folder
-BIDSOutputFolder=/Users/mohamed/Desktop/BIDS_V4/
+BIDSOutputFolder=/Users/cerenbattal/Cerens_files/fMRI/RAW/BIDS/SpatioDir/EB/
 
 # if BIDSOutputFolder does not exist
 if [ ! -d $BIDSOutputFolder ]; then
@@ -19,9 +19,9 @@ fi
 ########################################
 # Subject Names (folder names)
 #Subjs=("GeAl"	"MaGa"	"OlCo"	"PiMa"	"SyNo"	"ViCh"	"WiAu" "JoFr"	"MpLa"	"PhAL"	"SiGi"	"VaLa"	"ViCr")
-Subjs=("GeAl"	"MaGa") #	"OlCo"	"PiMa"	"SyNo"	"ViCh"	"WiAu" "JoFr"	"MpLa"	"PhAL"	"SiGi"	"VaLa"	"ViCr")
-group='con'     # Group
-dicomsRootFolder=/Data/Neurocat_BIDS/DICOMS/Control/      # DICOMS root folder
+Subjs=("AnBa"	) #	"OlCo"	"PiMa"	"SyNo"	"ViCh"	"WiAu" "JoFr"	"MpLa"	"PhAL"	"SiGi"	"VaLa"	"ViCr")
+group='blind'     # Group
+dicomsRootFolder=/Users/cerenbattal/Cerens_files/fMRI/RAW/EB_Anatomicals/      # DICOMS root folder
 
 ########################################
 ##############   GROUP 2   #############
