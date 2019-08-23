@@ -29,8 +29,8 @@ addToolboxs2Path = 1 ;
 % If toolboxes are not in the MATLAB Directory and needed to be added to
 % the path
 if addToolboxs2Path
-    addpath('D:\Dropbox\Code\MATLAB\Neuroimaging\NiftiTools')
-    addpath('D:\Dropbox\Code\MATLAB\Neuroimaging\SPM\spm12')
+    addpath('/Users/cerenbattal/Documents/MATLAB/NiftiTools')
+    addpath('/Users/cerenbattal/Documents/MATLAB/SPM/spm12')
 end
 
 
